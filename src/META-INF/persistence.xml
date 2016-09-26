@@ -2,6 +2,14 @@
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
   <persistence-unit name="PU" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>MP3Fiesta.entity.Chart</class>
+    <class>MP3Fiesta.entity.Artiste</class>
+    <class>MP3Fiesta.entity.Util</class>
+    <class>MP3Fiesta.entity.Genre</class>
+    <class>MP3Fiesta.entity.Piste</class>
+    <class>MP3Fiesta.entity.Achat</class>
+    <class>MP3Fiesta.entity.CategorieChart</class>
+    <class>MP3Fiesta.entity.Album</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/sample"/>
       <property name="javax.persistence.jdbc.user" value="app"/>
